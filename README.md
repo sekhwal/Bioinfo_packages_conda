@@ -1,7 +1,7 @@
 ## Welcome to Bioinfo conda environment
 
 ## How to install Bioinformatics packages using conda
-## Method 1:
+### Method 1:
 	-create conda environment
 		conda create -n myenv
 		conda activate myenv
@@ -15,10 +15,10 @@
 	-Check installation
 		conda activate myenv
 		bcftools
-## Method 2:
+### Method 2:
 	-create env and install tools
 		conda create -n myenv2 python bcftools bwa
-## Method 3:
+### Method 3:
 	-Install packages from an environment.yml
 	-Open a text file and type (Option 1)
 	
@@ -44,10 +44,11 @@
 		 - python=3.8
 		 - biopython
 		 - pandas
+	-Open terminal and follow the steps:
 	 conda env create -f environment.yml
-	 	conda env list
-	 	conda activate bioinfo
-	 	samtools (packages is installed)
-	 	conda deactivate
+	 conda env list
+	 conda activate bioinfo
+	 samtools (check the package)
+	 conda deactivate
 ####Done##
 
