@@ -1,0 +1,2 @@
+# Snippy
+High quality SNPs 
