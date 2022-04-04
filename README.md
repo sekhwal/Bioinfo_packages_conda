@@ -1,6 +1,6 @@
 ## Welcome to Bioinfo conda environment
 
-## How to install Bioinformatics packages using conda
+##### How to install Bioinformatics packages using conda
 ### Method 1:
 	-create conda environment
 		conda create -n myenv
